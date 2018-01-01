@@ -3,7 +3,6 @@ package org.ownjoo.rss.domain;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.ownjoo.rss.model.RssItem;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 

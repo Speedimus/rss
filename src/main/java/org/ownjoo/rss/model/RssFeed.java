@@ -13,8 +13,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.xml.bind.annotation.*;
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 @Data

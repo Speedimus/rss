@@ -50,7 +50,7 @@ public class RssItem
 
 	@XmlElement
 	@JacksonXmlProperty(localName = "link")
-	@org.hibernate.validator.constraints.URL
+	//@org.hibernate.validator.constraints.URL
 	@Pattern(regexp=NORMAL)
     private String link;
 

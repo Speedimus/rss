@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.Pattern;
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -34,34 +35,34 @@ public class RssChannel
 
     @XmlElement
     @JacksonXmlProperty(localName = "title")
-	//@Pattern(regexp=NORMAL)
+	@Pattern(regexp=NORMAL)
 	private String title;
 
 	@XmlElement
 	@JacksonXmlProperty(localName = "link")
 	//@org.hibernate.validator.constraints.URL
-	//@Pattern(regexp=NORMAL)
+	@Pattern(regexp=NORMAL)
 	private String link;
 
 	@XmlElement
 	@JacksonXmlProperty(localName = "description")
-	//@Pattern(regexp=NORMAL)
+	@Pattern(regexp=NORMAL)
 	private String description;
 
 	@XmlElement
 	@JacksonXmlProperty(localName = "language")
-	//@Pattern(regexp=NORMAL)
+	@Pattern(regexp=NORMAL)
 	private String language;
 
 	@XmlElement
 	@JacksonXmlProperty(localName = "copyright")
-	//@Pattern(regexp=NORMAL)
+	@Pattern(regexp=NORMAL)
 	private String copyright;
 
 	@XmlElement
 	@JacksonXmlProperty(localName = "pubDate")
 	//@DateTimeFormat("[some date format]")
-	//@Pattern(regexp=NORMAL)
+	@Pattern(regexp=NORMAL)
 	private String pubDate;
 
 	@XmlElement

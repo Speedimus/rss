@@ -1,6 +1,5 @@
 package org.ownjoo.rss.sc;
 
-import org.ownjoo.rss.model.RssChannel;
 import org.ownjoo.rss.model.RssFeed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
